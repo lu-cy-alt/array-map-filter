@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /* Array.prototype.filter - Exercice 4
 
 Ecrire une fonction filterOnPrice, qui attend 2 arguments:
@@ -29,6 +35,8 @@ Sortie attendue:
  */
 
 function filterOnPrice(products, maxPrice) {
+  const result = products.filter(product => product.price <= maxPrice );
+  return result;
 }
 
 // Ne pas modifier l'export

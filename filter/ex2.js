@@ -1,3 +1,4 @@
+
 /* Array.prototype.filter - Exercice 3
 
 Ecrire une fonction keepStarks, qui prend en arguments un tableau de chaînes
@@ -24,6 +25,8 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  const result = names.filter(name => name.endsWith('Stark'));
+  return result;
 }
 
 // Ne pas modifier l'export

@@ -1,3 +1,8 @@
+
+
+
+
+
 /* Array.prototype.filter - Exercice 1
 
 Ecrire une fonction getPositiveNumbers qui reçoit comme un argument un tableau de nombres.
@@ -12,7 +17,10 @@ Sortie attendue:
  */
 
 function getPositiveNumbers(numbers) {
+  const result = numbers.filter(number => number >= 0 );
+  return result;
 }
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node filter/ex1
